@@ -1,0 +1,34 @@
+name: Daily keepalive
+
+on:
+  schedule:
+    # 08:30 WIB every day (01:30 UTC)
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-keepalive
+  cancel-in-progress: true
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Commit daily update
+        run: |
+          STAMP=$(TZ=Asia/Jakarta date "+%Y-%m-%d %H:%M WIB")
+          printf '%s\n' "$STAMP" > LAST_UPDATED
+          git config user.name "RaafiHafidzRamadhan"
+          git config user.email "118245033+RaafiHafidzRamadhan@users.noreply.github.com"
+          git add LAST_UPDATED
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily update $STAMP"
+            git push
+          fi
