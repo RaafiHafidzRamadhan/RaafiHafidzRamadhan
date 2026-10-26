@@ -75,7 +75,7 @@ I build practical tools that solve everyday problems — from an **Android TV la
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=RaafiHafidzRamadhan&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true&amp;bg_color=0B1220&amp;title_color=FFB300&amp;icon_color=FF7A00&amp;text_color=C9D1D9&amp;border_radius=12" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=RaafiHafidzRamadhan&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0B1220&amp;title_color=FFB300&amp;icon_color=FF7A00&amp;text_color=C9D1D9&amp;border_radius=12" alt="GitHub stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaafiHafidzRamadhan&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;bg_color=0B1220&amp;title_color=FFB300&amp;text_color=C9D1D9&amp;border_radius=12" alt="Top languages" />
 
 <br/>
@@ -104,7 +104,7 @@ I build practical tools that solve everyday problems — from an **Android TV la
   <img src="https://img.shields.io/badge/Explore_my_repositories-FF7A00?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore repositories" />
 </a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0B1220,55:1D4ED8,100:FF7A00&amp;height=120&amp;section=footer" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0B1220,80:1D4ED8,100:FF7A00&amp;height=110&amp;section=footer" width="100%" alt="Footer" />
 
 <sub>
 Dragon Ball and all related characters © Bird Studio, Shueisha, and Toei Animation. This is a fan-made profile for non-commercial use.<br/>
